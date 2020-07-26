@@ -1,0 +1,15 @@
+a ESITTIR 65;
+
+EGER (25 KUCUKESIT 65) ISE 
+EKRANAYAZ ("STAYHOME") 
+NOKTA
+
+
+DONGU ( a KUCUKTUR b ) a ARTI B
+
+
+YORUMAC multiple 
+line 
+comment YORUMKAPA
+
+YORUM DONGU equals while loop
