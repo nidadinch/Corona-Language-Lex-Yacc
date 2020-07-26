@@ -1,8 +1,6 @@
 # CSE 334 - Corona Language Yacc Project
 Lex and Yacc for our "Corona" Language that an infectious pandemic disease. This project done for Programming Languages lesson homework at Akdeniz University Computer Science Engineering program. 
 
-There is only lex, yacc and other files, and descriptions. We will develop.
-
 "Corona Language" inspired heavily by Java. But this language designed as Turkish language. And syntax in CAPSLOCK form mostly. 
 
 ##### Let's have a look our language:
