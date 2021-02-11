@@ -1,5 +1,9 @@
-# CSE 334 - Corona Language Yacc Project
+#  Corona Language - LEXIAL ANALYSIS & YACC
+
+## About The Project
 Lex and Yacc for our "Corona" Language that an infectious pandemic disease. This project done for Programming Languages lesson homework at Akdeniz University Computer Science Engineering program. 
+
+There is only lex, yacc and other files, and descriptions. We will develop.
 
 "Corona Language" inspired heavily by Java. But this language designed as Turkish language. And syntax in CAPSLOCK form mostly. 
 
@@ -24,10 +28,42 @@ If (int yas <= 65){
 
 ```
 
-As you can see, if we compare both of them, "If" equals "EGER", "{" equals ISE and "}" equals NOKTA in this language. 
-If you want to improve my code, please comment. Your feedbacks are important. Thank you, Nida DINC
 
-## BNF Form (Updated)
+As you can see, if we compare both of them, "If" equals "EGER", "{" equls "[" and "}" equals "]" in our language. We added scan as "tara", for classes; "BOLUM" and for functions; we added "CALISTIR" . 
+
+
+
+## Built With 
+
+* C
+
+## Getting Started 
+
+* Makefile:
+
+1. lex:
+   ```sh
+   lex corona.l
+   gcc -o corona lex.yy.c -ll
+   ```
+
+2. clean:
+   ```sh
+   rm corona
+   rm lex.yy.c
+   ```
+
+* Other:
+
+1. 
+   ```sh
+   make
+   ./corona < example.cl
+   ...(some output)...
+   make clean
+   ```
+   
+## BNF Form 
 ```sh
 
 <language> ::= language <statement> language
@@ -61,11 +97,26 @@ If you want to improve my code, please comment. Your feedbacks are important. Th
 
 
 ```
+   
+## Contributing
 
-#### Running instructions:
-```sh
-make
-./corona < example.cl
-...(some output)...
-make clean
-```
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+
+## Contact
+
+Nida Dinç - niddinc@gmail.com
+
+Project Link: [https://github.com/nidadinch/Corona-Language-Lex-Yacc](https://github.com/nidadinch/Corona-Language-Lex-Yacc)
